@@ -8,4 +8,7 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #eeeeee;
+    max-width: 1000px;
+    margin: auto;
 }

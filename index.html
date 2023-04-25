@@ -14,15 +14,22 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link href="css/newTaskContainer.css" rel="stylesheet">
     <link href="js/script.js" rel="script">
     <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
-    <form class="js-form">
-        <input class="js-newTask">
-        <button>Dodaj zadanie</button>
-    </form>
+    <header class="header">
+        <h1 class="header__title">Lista zadań</h1>
+    </header>
+    <div class="newTaskContainer">
+        <h2 class="newTaskContainer__caption">Dodaj nowe zadanie</h2>
+        <form class="js-form">
+            <input class="js-newTask">
+            <button>Dodaj zadanie</button>
+        </form>
+    </div>
 
     <ul class="js-tasks"></ul>
 
