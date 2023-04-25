@@ -9,3 +9,20 @@
     padding: 20px;
     border-bottom: 1.5px solid #dadada;
 }
+
+.newTaskContainer__input {
+    margin: 0 20px 20px;
+    border: 1.5px solid #dadada;
+    font-size: 18px;
+    color: black;
+    padding: 8px;
+    width: 78%;
+}
+
+.newTaskContainer__button {
+    background-color: #007382;
+    border: #00444d;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+}
