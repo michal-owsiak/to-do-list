@@ -15,8 +15,8 @@
 }
 
 .list__tasks {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 40px auto 40px;
     list-style: none;
     margin: auto;
     width: 95%;
@@ -24,7 +24,12 @@
     border-bottom: 1.5px solid #dadada;
 }
 
-.list__tasks--done {
+.list__item {
+    word-break: break-word;
+    line-height: 1.8;
+}
+
+.list__item--done {
     text-decoration: line-through;
 }
 
@@ -37,6 +42,11 @@
     border: none;
 }
 
+.list__doneButton:active {
+    border: 1.5px solid black;
+    border-radius: 2px;
+}
+
 .list__removeButton {
     color: white;
     background-color: #ec293a;
@@ -44,4 +54,9 @@
     width: 30px;
     height: 30px;
     border: none;
+}
+
+.list__removeButton:active {
+    border: 1.5px solid black;
+    border-radius: 2px;
 }
