@@ -38,6 +38,7 @@
 
 .list__doneButton {
     color: white;
+    text-align: center;
     background-color: #1a7b1e;
     font-weight: 600;
     width: 30px;
@@ -52,6 +53,7 @@
 
 .list__removeButton {
     color: white;
+    text-align: center;
     background-color: #ec293a;
     font-weight: 400;
     width: 30px;
