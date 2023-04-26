@@ -15,10 +15,12 @@
 }
 
 .list__tasks {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
     margin: auto;
     width: 95%;
-    padding: 20px;
+    padding: 10px;
     border-bottom: 1.5px solid #dadada;
 }
 
@@ -30,8 +32,8 @@
     color: white;
     background-color: #1a7b1e;
     font-weight: 600;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border: none;
 }
 
@@ -39,8 +41,7 @@
     color: white;
     background-color: #ec293a;
     font-weight: 400;
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
     border: none;
-}
 }
