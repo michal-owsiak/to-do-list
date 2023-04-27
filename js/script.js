@@ -56,7 +56,11 @@
   };
 
   const onNewTaskButtonClick = () => {
-      document.getElementById("textInput").focus();
+    document.getElementById("textInput").focus();
+  };
+
+  const resetTextInput = () => {
+    document.querySelector(".js-newTask").value = "";
   };
 
   const onFormSubmit = (event) => {
@@ -69,6 +73,8 @@
     }
 
     addNewTask(newTaskContent);
+
+    resetTextInput();
   };
 
   const init = () => {
