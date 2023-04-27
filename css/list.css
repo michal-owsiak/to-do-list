@@ -20,9 +20,8 @@
 
 .list__tasks {
     display: grid;
-    grid-template-columns: 40px auto 40px;
+    grid-template-columns: 40px auto 30px;
     align-items: center;
-    list-style: none;
     margin: auto;
     width: 95%;
     padding: 10px;
