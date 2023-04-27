@@ -55,6 +55,10 @@
     bindEvents();
   };
 
+  const onNewTaskButtonClick = () => {
+      document.getElementById("textInput").focus();
+  };
+
   const onFormSubmit = (event) => {
     event.preventDefault();
 
@@ -71,8 +75,10 @@
     render();
 
     const form = document.querySelector(".js-form");
+    const newTaskButton = document.querySelector(".js-newTaskButton");
 
     form.addEventListener("submit", onFormSubmit);
+    newTaskButton.addEventListener("click", onNewTaskButtonClick);
   };
 
   init();

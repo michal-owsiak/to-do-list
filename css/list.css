@@ -10,10 +10,12 @@
     padding: 20px;
     border-bottom: 1.5px solid #dadada;
     font-size: 20px;
+    margin: 0;
 }
 
 .list__tasksContainer {
     padding: 0;
+    margin: 26px auto;
 }
 
 .list__tasks {
