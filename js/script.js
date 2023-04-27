@@ -43,9 +43,16 @@
     for (const task of tasks) {
       htmlString += `
         <li class="list__tasks">
-        <button class="js-done list__doneButton">${task.done ? "✓" : ""}</button>
-        <span class="list__item ${task.done ? "list__item--done" : ""}">${task.content}</span>
-        <button class="js-remove list__removeButton">🗑</button>
+          <button class="js-done list__button">
+            ${task.done ? "✓" : ""}
+          </button>
+          <span class="list__item 
+            ${task.done ? "list__item--done" : ""}">  
+            ${task.content}
+          </span>
+          <button class="js-remove list__button list__button--remove">
+            🗑
+          </button>
         </li>
       `;
     }
@@ -70,10 +77,9 @@
 
     if (newTaskContent === "") {
       return;
-    }
+    };
 
     addNewTask(newTaskContent);
-
     resetTextInput();
   };
 

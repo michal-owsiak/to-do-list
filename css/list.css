@@ -38,7 +38,7 @@
     text-decoration: line-through;
 }
 
-.list__doneButton {
+.list__button {
     color: white;
     text-align: center;
     background-color: #1a7b1e;
@@ -48,22 +48,12 @@
     border: none;
 }
 
-.list__doneButton:active {
-    border: 1.5px solid black;
-    border-radius: 2px;
-}
-
-.list__removeButton {
-    color: white;
-    text-align: center;
+.list__button--remove {
     background-color: #ec293a;
     font-weight: 400;
-    width: 30px;
-    height: 30px;
-    border: none;
 }
 
-.list__removeButton:active {
+.list__button:active {
     border: 1.5px solid black;
     border-radius: 2px;
 }
