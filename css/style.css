@@ -8,12 +8,8 @@ html {
 
 .body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #eeeeee;
+    background-color: #eee;
     max-width: 900px;
-    margin: auto;
-}
-
-.header__title {
-    margin: 40px 0 20px 20px;
-    font-size: 30px;
+    margin: 0 auto;
+    padding: 20px;
 }

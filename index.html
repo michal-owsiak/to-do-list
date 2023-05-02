@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 
 <head>
    <meta charset="UTF-8">
@@ -16,35 +16,28 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet">
    <link href="css/style.css" rel="stylesheet">
-   <link href="css/newTask.css" rel="stylesheet">
-   <link href="css/list.css" rel="stylesheet">
-   <link href="js/script.js" rel="script">
+   <link href="css/form.css" rel="stylesheet">
+   <link href="css/section.css" rel="stylesheet">
+   <link href="css/tasks.css" rel="stylesheet">
    <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
-   <header class="header">
-      <h1 class="header__title">Lista zadań</h1>
+   <header>
+      <h1>Lista zadań</h1>
    </header>
 
-   <div class="newTask">
-      <h2 class="newTask__caption">
-         Dodaj nowe zadanie
-      </h2>
-      <form class="newTask__form js-form">
-         <input class="newTask__input js-newTask" id="textInput" placeholder="Co jest do zrobienia?">
-         <button class="newTask__button js-newTaskButton">
-            Dodaj zadanie
-         </button>
+   <section class="section">
+      <h2 class="section__header">Dodaj nowe zadanie</h2>
+      <form class="form js-form">
+         <input class="form__input js-newTask" id="textInput" placeholder="Co jest do zrobienia?">
+         <button class="form__button js-newTaskButton">Dodaj zadanie</button>
       </form>
-   </div>
-   <div class="list">
-      <h2 class="list__caption">
-         Lista zadań
-      </h2>
-      <ul class="list__tasksContainer js-tasks"></ul>
-   </div>
-
+   </section>
+   <section class="section">
+      <h2 class="section__header">Lista zadań</h2>
+      <ul class="tasks js-tasks"></ul>
+      </div>
 </body>
 
 </html>
