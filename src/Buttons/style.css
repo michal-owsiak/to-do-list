@@ -23,7 +23,8 @@
 
 @media (max-width: 767px) {
     .tasklistButtons {
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
         padding: 0 0 20px;
     }
 

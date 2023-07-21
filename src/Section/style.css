@@ -20,4 +20,9 @@
     .section__container {
         grid-template-columns: 1fr;
     }
+
+    .section__header {
+        display: flex;
+        flex-direction: column;
+    }
 }
