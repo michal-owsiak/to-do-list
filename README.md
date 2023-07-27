@@ -1,6 +1,8 @@
-# To-do list
+# To-do List in React.js
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+
+A simple to-do list where user can add tasks to the list, mark them as done or delete them. There is also an option to mark every task as done, or to hide/show all the done ones.
 
 ## Demo
 
