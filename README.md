@@ -4,7 +4,27 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Demo
 
-[TO-DO LIST DEMO](https://michal-owsiak.github.io/to-do-list-react/)
+[CLICK HERE](https://michal-owsiak.github.io/to-do-list-react/) and try it on your own, or see a demonstration below:
+
+![demo](https://github.com/michal-owsiak/to-do-list-react/blob/main/public/demo.gif?raw=true)
+
+## Tools used
+
+### Languages
+
+- JavaScript (ES6+) with JSX Syntax
+- CSS
+- HTML
+
+### Libraries & environments
+
+- React.js
+- Node.js
+
+### Methodologies
+
+- BEM naming convention
+- Immutability
 
 ## Available Scripts
 
