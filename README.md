@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 [CLICK HERE](https://michal-owsiak.github.io/to-do-list-react/) and try it on your own, or see a demonstration below:
 
-![demo](https://github.com/michal-owsiak/to-do-list-react/blob/main/public/demo.gif?raw=true)
+![demo](https://github.com/michal-owsiak/to-do-list-react/blob/master/public/demo.gif?raw=true)
 
 ## Tools used
 
