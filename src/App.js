@@ -55,7 +55,11 @@ function App() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
-        mainSectionContent={<Form addNewTask={addNewTask} />}
+        mainSectionContent={
+          <Form
+            addNewTask={addNewTask}
+          />
+        }
       />
       <Section
         title="Lista zadań"
