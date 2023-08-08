@@ -17,7 +17,7 @@ export const Header = styled.div`
   };
 `;
 
-export const Title = styled.div`
+export const Title = styled.h1`
   padding: 20px;
   font-size: 20px;
   margin: 0;
