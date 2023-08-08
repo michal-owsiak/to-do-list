@@ -1,3 +1,4 @@
+import { GlobalStyle } from "./styled";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
@@ -51,7 +52,8 @@ function App() {
   };
 
   return (
-    <main>
+    <>
+      <GlobalStyle />
       <Header
         title="Lista zadań"
       />
@@ -82,7 +84,7 @@ function App() {
           />
         }
       />
-    </main>
+    </>
   );
 }
 
