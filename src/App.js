@@ -52,7 +52,9 @@ function App() {
 
   return (
     <main>
-      <Header title="Lista zadań" />
+      <Header
+        title="Lista zadań"
+      />
       <Section
         title="Dodaj nowe zadanie"
         mainSectionContent={
