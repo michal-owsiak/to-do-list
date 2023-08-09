@@ -22,10 +22,10 @@ A simple to-do list where user can add tasks to the list, mark them as done or d
 
 - React.js
 - Node.js
+- styled-components
 
 ### Methodologies
 
-- BEM naming convention
 - Immutability
 
 ## Available Scripts
