@@ -5,7 +5,7 @@ export const StyledButtons = styled.div`
   grid-template-columns: auto auto;
   padding: 20px;
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     display: flex;
     flex-direction: column;
     padding: 0 0 20px;
@@ -15,20 +15,20 @@ export const StyledButtons = styled.div`
 export const Button = styled.button`
   border: none;
   background: none;
-  color: #007382;
+  color: ${({ theme }) => theme.color.blueLagoon};
   cursor: pointer;
   transition: 0.5s;
 
   &:hover {
-    color: hsl(187, 100%, 40%);
+    filter: brightness(130%);
   }
 
   &:disabled {
-    color: #b9b9b9;
+    color: ${({ theme }) => theme.color.silver};
     cursor: default;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
     padding: 10px;
   }
 `;

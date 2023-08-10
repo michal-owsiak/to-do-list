@@ -1,4 +1,3 @@
-import { GlobalStyle } from "./GlobalStyle";
 import Form from "./Form";
 import Tasks from "./Tasks";
 import Buttons from "./Buttons";
@@ -19,7 +18,6 @@ function App() {
 
   return (
     <>
-      <GlobalStyle />
       <Header
         title="Lista zadań"
       />

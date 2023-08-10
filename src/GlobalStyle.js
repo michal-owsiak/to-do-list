@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
 
   body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #eee;
+    background: ${({ theme }) => theme.color.gallery};
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;

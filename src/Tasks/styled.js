@@ -29,8 +29,8 @@ export const Button = styled.button`
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white;
-    background: #1a7b1e;
+    color: ${({ theme }) => theme.color.white};
+    background: ${({ theme }) => theme.color.forestGreen};
     font-weight: 600;
     width: 30px;
     height: 30px;
@@ -39,20 +39,20 @@ export const Button = styled.button`
     cursor: pointer;
 
     &:hover {
-      background: hsl(122, 65%, 35%);
+      filter: brightness(120%);
     }
 
     &:active {
-      border: 1.5px solid black;
+      border: 1.5px solid ${({ theme }) => theme.color.black};
       border-radius: 2px;
     }
 
     ${({ remove }) => remove && css`
-      background: #ec293a;
+      background: ${({ theme }) => theme.color.alizarinCrimson};
       font-weight: 400;
 
       &:hover {
-        background: hsl(355, 84%, 65%);
+        filter: brightness(130%);
       }
     `}
 `;
