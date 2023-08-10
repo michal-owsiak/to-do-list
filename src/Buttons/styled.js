@@ -20,12 +20,13 @@ export const Button = styled.button`
   transition: 0.5s;
 
   &:hover {
-    filter: brightness(130%);
+    filter: brightness(135%);
   }
 
   &:disabled {
     color: ${({ theme }) => theme.color.silver};
     cursor: default;
+    filter: brightness(100%)
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
