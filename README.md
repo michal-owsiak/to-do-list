@@ -20,13 +20,10 @@ A simple to-do list where user can add tasks to the list, mark them as done or d
 
 ### Libraries & environments
 
-- React.js
-- Node.js
-- styled-components
-
-### Methodologies
-
-- Immutability
+- React
+- Node
+- Redux
+- Styled-components
 
 ## Available Scripts
 
