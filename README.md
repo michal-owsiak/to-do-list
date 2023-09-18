@@ -23,6 +23,7 @@ A simple to-do list where user can add tasks to the list, mark them as done or d
 - React
 - Node
 - Redux
+- Immer
 - Styled-components
 
 ## Available Scripts
