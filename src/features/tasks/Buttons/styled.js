@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledButtons = styled.div`
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
   padding: 20px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
