@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 export const StyledTasks = styled.ul`
   padding: 0;
@@ -24,6 +25,15 @@ export const Item = styled.span`
     text-decoration: line-through;
   `}
 `;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: ${({ theme }) => theme.color.black};
+
+  &:hover {
+    color: ${({ theme }) => theme.color.silver};;
+  }
+`
 
 export const Button = styled.button`
   display: flex;
