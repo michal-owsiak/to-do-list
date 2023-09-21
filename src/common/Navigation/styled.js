@@ -7,6 +7,12 @@ export const StyledLink = styled(NavLink)`
 
   &.active {
     font-weight: 600;
+    transition: none;
+  }
+
+  &:hover {
+    filter: brightness(90%);
+    transition: 0.5s;
   }
 `;
 
