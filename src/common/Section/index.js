@@ -2,14 +2,13 @@ import {
   StyledSection,
   Header,
   Title,
-  DifferentContent
+  MainSectionContent
 } from "./styled";
 
 const Section = ({
   title, 
   extraHeaderContent, 
   mainSectionContent,
-  differentSectionContent
 }) => (
   <StyledSection>
     <Header>
@@ -18,12 +17,9 @@ const Section = ({
       </Title>
       {extraHeaderContent}
     </Header>
-    <div>
+    <MainSectionContent>
       {mainSectionContent}
-    </div>
-    <DifferentContent>
-      {differentSectionContent}
-    </DifferentContent>
+    </MainSectionContent>
   </StyledSection>
 );
 

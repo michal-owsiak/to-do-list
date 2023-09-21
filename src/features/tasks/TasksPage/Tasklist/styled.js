@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components";
 
 export const StyledTasks = styled.ul`
-  padding: 20px;
+  padding: 0;
   margin: 0;
 `;
 

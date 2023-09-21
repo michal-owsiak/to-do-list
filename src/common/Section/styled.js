@@ -23,6 +23,6 @@ export const Title = styled.h1`
   margin: 0;
 `;
 
-export const DifferentContent = styled.div`
-  padding: 20px 40px;
+export const MainSectionContent = styled.div`
+  padding: 20px;
 `;

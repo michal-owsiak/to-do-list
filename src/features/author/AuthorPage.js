@@ -6,7 +6,7 @@ export default () => (
     <Header title="O autorze" />
     <Section
       title="Michał Owsiak"
-      differentSectionContent={
+      mainSectionContent={
         <>
           <p>Hej! Jestem Michał.</p>
           <p>
