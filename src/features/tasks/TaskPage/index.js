@@ -14,7 +14,7 @@ function TaskPage() {
       {task ? (
         <Section
           title={task.content}
-          differentSectionContent={
+          mainSectionContent={
             <>
               <strong>Ukończono:</strong> {task.done ? "Tak" : "Nie"}
             </>
