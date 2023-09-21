@@ -1,4 +1,4 @@
-import Input from "../../Input";
+import Input from "../Input";
 import searchQueryParamName from "../searchQueryParamName";
 import { Wrapper } from "./styled";
 import { useLocation, useHistory } from "react-router-dom/cjs/react-router-dom.min";
