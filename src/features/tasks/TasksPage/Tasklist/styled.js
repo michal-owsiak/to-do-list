@@ -29,6 +29,7 @@ export const Item = styled.span`
 export const StyledLink = styled(Link)`
   text-decoration: none;
   color: ${({ theme }) => theme.color.black};
+  transition: 0.25s;
 
   &:hover {
     color: ${({ theme }) => theme.color.silver};;
