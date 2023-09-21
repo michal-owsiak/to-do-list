@@ -14,16 +14,16 @@ A simple to-do list where user can add tasks to the list, mark them as done or d
 
 ### Languages
 
-- `JavaScript (ES6+) with JSX Syntax`
-- `CSS`
-- `HTML`
+- JavaScript (ES6+) with JSX Syntax
+- CSS
+- HTML
 
 ### Libraries & environments
 
-- `React`
-- `Redux-Saga`
-- `Immer`
-- `Styled-components`
+- React
+- Redux-Saga
+- Immer
+- Styled-components
 
 ## Available Scripts
 
