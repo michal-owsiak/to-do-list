@@ -1,9 +1,13 @@
 import styled from "styled-components";
-import { Link } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
 
-export const StyledLink = styled(Link)`
+export const StyledLink = styled(NavLink)`
   color: ${({ theme }) => theme.color.white};
   text-decoration: none;
+
+  &.active {
+    font-weight: 600;
+  }
 `;
 
 export const StyledList = styled.ul`
