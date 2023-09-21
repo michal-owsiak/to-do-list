@@ -4,6 +4,7 @@ import Tasklist from "./Tasklist";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Search from "./Search";
+import ExampleTaskButton from "./ExampleTaskButton"
 
 function TasksPage() {
   return (
@@ -12,6 +13,7 @@ function TasksPage() {
       <Section
         title="Dodaj nowe zadanie"
         mainSectionContent={<Form />}
+        extraHeaderContent={<ExampleTaskButton />}
       />
       <Section
         title="Wyszukiwarka"
