@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledButtons = styled.div`
+export const Wrapper = styled.div`
   display: grid;
   grid-template-columns: auto auto auto;
   padding: 20px;
@@ -12,7 +12,7 @@ export const StyledButtons = styled.div`
   }
 `;
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
   border: none;
   background: none;
   color: ${({ theme }) => theme.color.blueLagoon};
