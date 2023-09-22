@@ -1,10 +1,10 @@
 import Form from "./Form";
+import ExampleTasksButton from "./ExampleTasksButton"
 import Buttons from "./Buttons";
 import Tasklist from "./Tasklist";
 import Section from "../../../common/Section";
 import Header from "../../../common/Header";
 import Search from "./Search";
-import ExampleTaskButton from "./ExampleTaskButton"
 
 function TasksPage() {
   return (
@@ -12,8 +12,8 @@ function TasksPage() {
       <Header title="Lista zadań" />
       <Section
         title="Dodaj nowe zadanie"
+        extraHeaderContent={<ExampleTasksButton />}
         mainSectionContent={<Form />}
-        extraHeaderContent={<ExampleTaskButton />}
       />
       <Section
         title="Wyszukiwarka"
