@@ -26,7 +26,8 @@ export const StyledButton = styled.button`
   &:disabled {
     color: ${({ theme }) => theme.color.silver};
     cursor: default;
-    filter: brightness(100%)
+    filter: brightness(100%);
+    transition: 0s;
   }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobileMax}px) {
