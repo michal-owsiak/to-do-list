@@ -1,8 +1,7 @@
 import { StyledLink, StyledList } from "./styled";
 
-const Navigation = () => {
-  return (
-    <nav>
+const Navigation = () => (
+  <nav>
     <StyledList>
       <li>
         <StyledLink to="/zadania">Zadania</StyledLink>
@@ -12,7 +11,6 @@ const Navigation = () => {
       </li>
     </StyledList>
   </nav>
-  )
-}
+);
 
 export default Navigation;
