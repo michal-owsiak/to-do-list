@@ -1,4 +1,4 @@
-import { useHistory, useLocation } from "react-router-dom/cjs/react-router-dom.min";
+import { useHistory, useLocation } from "react-router-dom";
 
 export const useQueryParameter = (paramName) => {
     const location = useLocation();
