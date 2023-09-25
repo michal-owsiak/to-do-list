@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import { NavLink } from "react-router-dom/cjs/react-router-dom.min";
+import { NavLink } from "react-router-dom";
 
 export const StyledLink = styled(NavLink)`
   color: ${({ theme }) => theme.color.white};
@@ -11,8 +11,7 @@ export const StyledLink = styled(NavLink)`
   }
 
   &:hover {
-    filter: brightness(90%);
-    transition: 0.5s;
+    text-decoration: underline;
   }
 `;
 
