@@ -12,8 +12,9 @@ export const StyledForm = styled.form`
 `;
 
 export const Button = styled.button`
-  background: #007382;
+  background: ${({ theme }) => theme.color.blueLagoon};
   border: none;
+  border-radius: 8px;
   color: ${({ theme }) => theme.color.white};
   padding: 10px;
   transition: 0.5s;

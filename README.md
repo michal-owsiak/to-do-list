@@ -6,9 +6,9 @@ A simple to-do list where user can add tasks to the list, mark them as done or d
 
 ## Demo
 
-[CLICK HERE](https://michal-owsiak.github.io/to-do-list-react/) and try it on your own, or see a demonstration below:
+[CLICK HERE](https://michal-owsiak.github.io/to-do-list/) and try it on your own, or see a demonstration below:
 
-![demo](https://github.com/michal-owsiak/to-do-list-react/blob/master/demo.gif?raw=true)
+![demo](https://github.com/michal-owsiak/to-do-list/blob/master/demo.gif?raw=true)
 
 ## Tools used
 

@@ -4,6 +4,7 @@ export const StyledSection = styled.section`
   background: ${({ theme }) => theme.color.white};
   box-shadow: 0 0 5px ${({ theme }) => theme.color.alto};
   margin: 10px 0;
+  border-radius: 8px;
 `;
 
 export const Header = styled.div`
