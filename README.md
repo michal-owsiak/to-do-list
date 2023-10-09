@@ -1,54 +1,63 @@
-# To-do List in React.js
+# **To Do List**
 
-*This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).*
+***This project was bootstrapped with [**Create React App**](https://github.com/facebook/create-react-app).***
 
-A simple to-do list where user can add tasks to the list, mark them as done or delete them. There is also an option to mark every task as done, or to hide/show all the done ones.
+Effortlessly manage your tasks with features like adding, filtering, marking done, bulk actions, and more.
 
-## Demo
+### **Demo**
 
-[CLICK HERE](https://michal-owsiak.github.io/to-do-list/) and try it on your own, or see a demonstration below:
+[https://bit.ly/to-do-github](https://bit.ly/to-do-github)
 
 ![demo](https://github.com/michal-owsiak/to-do-list/blob/master/demo.gif?raw=true)
 
-## Tools used
+## **Tools Used**
 
-### Languages
+### **Languages**
 
+```bash
 - JavaScript (ES6+) with JSX Syntax
 - CSS
 - HTML
+```
 
-### Libraries & frameworks
+### **Libraries**
 
+```bash
 - React
 - React Router
+- Axios
+- Redux
+- Redux-Toolkit
 - Redux-Saga
-- Immer
-- Styled-components
+- Styled-Components
+```
 
-## Available Scripts
+## **Installation and Usage**
 
-In the project directory, you can run:
+To get started with this project, follow these steps:
 
-### `npm start`
+1. Clone this repository.
+2. Run `npm install` to install the required dependencies.
+3. Run `npm start` to launch the development server. The app will be available at [http://localhost:3000](http://localhost:3000).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## **Deployment**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To build the app for production, use:
 
-### `npm run build`
+```bash
+npm run build
+```
+This command creates an optimized production build in the build folder, ready for deployment.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+npm run deploy
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+This command is a convenient shortcut that both builds the application (as a predeploy action) and deploys it. It's useful for quickly deploying your app to your hosting platform.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
+```bash
+npm run eject
+```
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
@@ -56,4 +65,4 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it..
