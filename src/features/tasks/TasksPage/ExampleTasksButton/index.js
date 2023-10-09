@@ -12,7 +12,7 @@ const ExampleTasksButton = () => {
         onClick={() => dispatch(fetchExampleTasks())}
         disabled={loading}
       >
-        {loading ? "Ładowanie..." : "Download example tasks"}
+        {loading ? "Loading..." : "Download example tasks"}
       </StyledButton>
     </Wrapper>
   )
