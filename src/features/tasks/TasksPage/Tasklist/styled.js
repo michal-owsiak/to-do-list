@@ -51,7 +51,6 @@ export const Button = styled.button`
 
   &:active {
     border: 1.5px solid ${({ theme }) => theme.color.black};
-    border-radius: 2px;
   }
 `;
 

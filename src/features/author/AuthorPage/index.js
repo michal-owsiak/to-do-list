@@ -3,25 +3,18 @@ import Header from "../../../common/Header";
 
 export default () => (
   <>
-    <Header title="O autorze" />
+    <Header title="About the author" />
     <Section
       title="Michał Owsiak"
       mainSectionContent={
         <>
-          <p>Hej! Jestem Michał.</p>
-          <p>
-            Obecnie, pracując na co dzień w korporacji, powolnymi krokami zbliżam się do finiszu swoich studiów
-            psychologicznych.
-          </p>
-          <p>
-            Bazą mojej osobowości jest wewnętrzny humanista; myślę jednak, że nie brakuje mi także umysłu analitycznego.
-            Lubię badać zjawiska, przyglądać się im z perspektywy analizy statystycznej, wyciągać wnioski na podstawie
-            konkretnych, liczbowych danych. To właśnie świadomość zamiłowania do analitycznego postrzegania
-            rzeczywistości skłoniła mnie do podjęcia wyzwania, jakim jest <b>nauka programowania.</b>
-          </p>
-          <p>
-            Wybiegając poza zainteresowania psychologiczne, w wolnych chwilach dbam o uprawę własnych warzyw, ziół i
-            owoców.
+          <p align="center">
+            Frontend Developer with proficiency in React. Skilled in JavaScript, CSS, and modern web technologies.<br />
+            Explore my <a href="https://github.com/michal-owsiak">GitHub</a> to see how I implement these skills in real projects. <br />
+            <br />
+            Currently seeking new job opportunities in the frontend development field. Feel free to reach out! 🌍<br />
+            <br />
+            ✉️ micowsiak@gmail.com
           </p>
         </>
       }

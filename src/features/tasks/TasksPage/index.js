@@ -9,18 +9,18 @@ import Search from "./Search";
 function TasksPage() {
   return (
     <> 
-      <Header title="Lista zadań" />
+      <Header title="To do list" />
       <Section
-        title="Dodaj nowe zadanie"
+        title="Add new task"
         extraHeaderContent={<ExampleTasksButton />}
         mainSectionContent={<Form />}
       />
       <Section
-        title="Wyszukiwarka"
+        title="Search"
         mainSectionContent={<Search />}
       />
       <Section
-        title="Lista zadań"
+        title="Tasklist"
         extraHeaderContent={<Buttons />}
         mainSectionContent={<Tasklist />}
       />

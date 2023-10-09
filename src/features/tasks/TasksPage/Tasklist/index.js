@@ -27,7 +27,7 @@ const Tasklist = () => {
           </ToggleDoneButton>
           <Item $done={task.done}>
             <StyledLink
-              to={`/zadania/${task.id}`}
+              to={`/tasks/${task.id}`}
             >
               {task.content}
             </StyledLink>

@@ -4,10 +4,10 @@ const Navigation = () => (
   <nav>
     <StyledList>
       <li>
-        <StyledLink to="/zadania">Zadania</StyledLink>
+        <StyledLink to="/tasks">Tasks</StyledLink>
       </li>
       <li>
-        <StyledLink to="/autor">O autorze</StyledLink>
+        <StyledLink to="/Author">Author</StyledLink>
       </li>
     </StyledList>
   </nav>

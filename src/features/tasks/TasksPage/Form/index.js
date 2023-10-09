@@ -34,10 +34,10 @@ const Form = () => {
         ref={inputRef}
         value={newTaskContent}
         id="textInput"
-        placeholder="Co jest do zrobienia?"
+        placeholder="What's there to do?"
         onChange={({ target }) => setNewTaskContent(target.value)}
       />
-      <Button>Dodaj zadanie</Button>
+      <Button>Add task</Button>
     </StyledForm>
   );
 };

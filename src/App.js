@@ -10,17 +10,17 @@ export default () => (
     <Navigation />
     <Wrapper>
       <Switch>
-        <Route path="/zadania/:id">
+        <Route path="/tasks/:id">
           <TaskPage />
         </Route>
-        <Route path="/zadania">
+        <Route path="/tasks">
           <TasksPage />
         </Route>
-        <Route path="/autor">
+        <Route path="/author">
           <AuthorPage />
         </Route>
         <Route path="/">
-          <Redirect to="/zadania" />
+          <Redirect to="/tasks" />
         </Route>
       </Switch>
     </Wrapper>
